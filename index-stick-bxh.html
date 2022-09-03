@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chiến Giới 4D</title>
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="sass/9main-mb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="wrapper" id="dkLogin">
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl  modal-dialog-centered">
+			  <div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					  </button>
+					  <div class="embed-responsive embed-responsive-1by1">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
+			   allowfullscreen></iframe>
+					 </div>	    
+				</div>
+			  </div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		  </div><!-- /.modal -->
+		<div id="layout">
+			<div class="download fixed-top px-3 py-2">
+				<div class="container p-0">
+					<div class="left">
+						<img class="icongame me-2" src="images/iconcg.png" alt=""/>
+						<div class="title-game">
+							<h4>Chiến Giới 4D</h4>
+						</div>
+					</div>
+					<div class="right">
+						<a href="#" class="d-block"><img class="android" src="images/taiios.png" alt=""/></a>
+						<!-- <a href="#" class="d-block"><img class="ios" src="images/taiios.png" alt=""/></a>
+						<a href="#" class="d-block"><img class="apk" src="images/taiapk.png" alt=""/></a> -->
+						<a href="#" class="btnlist ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+				<div class="offcanvas-header">
+				  <h4 class="offcanvas-title" id="offcanvasWithBackdropLabel"></h4>
+				  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<img class="icong" src="images/iconcg.png" alt="">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-home me-2" aria-hidden="true"></i>Trang chủ</a></li>
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-facebook-square me-2" aria-hidden="true"></i>Fanpage</a></li>
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-users me-2" aria-hidden="true"></i>Cộng đồng</a></li>
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-usd me-2" aria-hidden="true"></i>Nạp</a></li>
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-calendar me-2" aria-hidden="true"></i>Sự kiện</a></li>
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-trophy me-2" aria-hidden="true"></i>Bảng xếp hạng</a></li>
+						<li class="list-group-item py-3"><a href="#"><i class="fa fa-phone-square me-2" aria-hidden="true"></i>CKSH</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="maincontent container px-0">
+				<div class="row px-0">
+					<div class="col-12">
+                        <h4 class="p-0 m-0 mx-auto d-block titlebxh mt-2"><img src="images/titlebxh.png" alt=""/></h4>
+						<div class="khungbxh">
+                            <div class="khungin mx-auto">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="nav nav-pills my-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Top lực chiến</a>
+                                        <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Top server</a>
+                                    </div>
+                                    <div class="tab-content mt-2" id="v-pills-tabContent">
+                                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                            <div class="table-responsive">
+                                                <table class="table mb-4">
+                                                    <thead>
+                                                    <tr>
+                                                        <th scope="col">Hạng</th>
+                                                        <th scope="col">Tên nhân vật</th>
+                                                        <th scope="col">Server</th>
+                                                        <th scope="col">Lực chiến</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th scope="row"><img src="images/top1.png" alt=""></th>
+                                                        <td>Mark</td>
+                                                        <td>1</td>
+                                                        <td>124.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="images/top2.png" alt=""></th>
+                                                        <td>Jacob</td>
+                                                        <td>1</td>
+                                                        <td>123.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row"><img src="images/top3.png" alt=""></th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>122.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">8</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">9</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">10</th>
+                                                        <td>coconati121</td>
+                                                        <td>1</td>
+                                                        <td>121.000.000</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                            <table class="table">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">Hạng</th>
+                                                    <th scope="col">Tên nhân vật</th>
+                                                    <th scope="col">Server</th>
+                                                    <th scope="col">Lực chiến</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row"><img src="images/top1.png" alt=""></th>
+                                                    <td>congcong12</td>
+                                                    <td>1</td>
+                                                    <td>124.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row"><img src="images/top2.png" alt=""></th>
+                                                    <td>jambo2354</td>
+                                                    <td>1</td>
+                                                    <td>123.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row"><img src="images/top3.png" alt=""></th>
+                                                    <td>kinhki234</td>
+                                                    <td>1</td>
+                                                    <td>122.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">7</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">8</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">9</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">10</th>
+                                                    <td>coconati121</td>
+                                                    <td>1</td>
+                                                    <td>121.000.000</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div><!---Row-->
+			</div><!---end maincontent-->
+			<div class="footer mt-5">
+				<div class="footer-content container py-5 text-center">
+					<img class="d-block mb-4" src="images/logovplay.png" alt="" />
+					<p>Hotline: <strong>1900866666</strong> - Email: <strong>hotro@vplay.vn</strong></p>
+<p>
+						Giấy phép phê duyệt nội dung số 52/QĐ-BTTTT cấp ngày 19/01/2022</p>
+				</div>
+			</div>
+		</div>
+	</div><!----Wrapper-->
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
