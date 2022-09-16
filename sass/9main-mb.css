@@ -622,7 +622,7 @@ main {
 
 .footer {
   min-height: 200px;
-  background: #030a11;
+  background: var(--whitecolor);
 }
 
 .footer .footer-content {
@@ -645,7 +645,7 @@ main {
   line-height: 1.3;
   font-weight: 500;
   font-size: 13px;
-  color: var(--whitecolor);
+  color: var(--color2);
 }
 
 .nofixed {
