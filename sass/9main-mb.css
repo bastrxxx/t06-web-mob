@@ -544,6 +544,11 @@ main {
   max-width: 100%;
 }
 
+.maincontent .baiviet img {
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
 .page3 {
   background: url(../images/bgp3.png) no-repeat center center;
   background-size: contain;
@@ -746,42 +751,37 @@ main {
   margin: 0 auto;
 }
 
-.modal-dk .modal-content {
-  background: url(../images/bg-pop1.png) no-repeat top center;
+.modal-dk .modal-content, .modal .modal-content {
+  background: transparent;
   border: none;
-  height: 471px;
-  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-.modal-dk .modal-content .modal-body .close {
+.modal-dk .modal-content .modal-body .close, .modal .modal-content .modal-body .close {
   position: absolute;
-  top: -10px;
-  right: 20px;
-  width: 85px;
-  height: 85px;
-  background: url(../images/btn-close.png) no-repeat top center;
+  top: 0;
+  right: 0;
   border: none;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom {
+.modal-dk .modal-content .modal-body .content-dksom, .modal .modal-content .modal-body .content-dksom {
   text-align: center;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom h4 {
+.modal-dk .modal-content .modal-body .content-dksom h4, .modal .modal-content .modal-body .content-dksom h4 {
   font-size: 30px;
   color: #101a66;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom h6 {
+.modal-dk .modal-content .modal-body .content-dksom h6, .modal .modal-content .modal-body .content-dksom h6 {
   color: #101a66;
   font-size: 22px;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom input {
+.modal-dk .modal-content .modal-body .content-dksom input, .modal .modal-content .modal-body .content-dksom input {
   border: 2px solid #101a66;
   color: #101a66;
   background: transparent;
@@ -791,21 +791,21 @@ main {
   border-radius: 10px;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom p {
+.modal-dk .modal-content .modal-body .content-dksom p, .modal .modal-content .modal-body .content-dksom p {
   font-size: 18px;
   line-height: 1.6;
   font-weight: 500;
   color: #101a66;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom table {
+.modal-dk .modal-content .modal-body .content-dksom table, .modal .modal-content .modal-body .content-dksom table {
   font-size: 18px;
   line-height: 1.6;
   font-weight: 500;
   color: #101a66;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom .btn {
+.modal-dk .modal-content .modal-body .content-dksom .btn, .modal .modal-content .modal-body .content-dksom .btn {
   margin: 0 auto;
   background: #101a66;
   color: white;
@@ -815,7 +815,7 @@ main {
   position: relative;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom .btn span.textsub {
+.modal-dk .modal-content .modal-body .content-dksom .btn span.textsub, .modal .modal-content .modal-body .content-dksom .btn span.textsub {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -826,14 +826,14 @@ main {
   text-transform: uppercase;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom .btn-dangky {
+.modal-dk .modal-content .modal-body .content-dksom .btn-dangky, .modal .modal-content .modal-body .content-dksom .btn-dangky {
   background: transparent;
   border: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.modal-dk .modal-content .modal-body .content-dksom .btn-dangky:hover {
+.modal-dk .modal-content .modal-body .content-dksom .btn-dangky:hover, .modal .modal-content .modal-body .content-dksom .btn-dangky:hover {
   -webkit-filter: brightness(120%);
           filter: brightness(120%);
 }

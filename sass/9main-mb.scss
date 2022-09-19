@@ -147,6 +147,7 @@ main {position: relative;height: 100vh;}
     p{font-size: 1rem;font-weight:400;
       img{display: block;margin: 1.2rem auto;max-width: 100%;}
     }
+    img{max-width: 100%;margin: 1rem auto;}
   }
 }
 .page3{background: url(../images/bgp3.png) no-repeat center center;background-size: contain;margin-bottom: calc(120px * var(--ratio));
@@ -204,10 +205,10 @@ main {position: relative;height: 100vh;}
   img{display: block;max-width:100%;margin: 0 auto;}
 }
 
-.modal-dk{
-  .modal-content{background: url(../images/bg-pop1.png) no-repeat top center;border:none;height:471px;width: 1200px;margin: 0 auto;position: relative;
+.modal-dk, .modal{
+  .modal-content{background:transparent;border:none;margin: 0 auto;position: relative;
     .modal-body{
-      .close{position: absolute;top:-10px;right:20px;width: 85px;height: 85px;background: url(../images/btn-close.png) no-repeat top center;border: none;}
+      .close{position: absolute;top:0;right:0;border: none;}
       .content-dksom{text-align: center;
         h4{font-size: 30px;color: #101a66;font-weight: 700;text-transform: uppercase;}
         h6{color: #101a66;font-size: 22px;}
